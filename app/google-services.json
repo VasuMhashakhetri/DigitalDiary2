@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "607343234603",
+    "firebase_url": "https://digitaldiary2-fb1bf.firebaseio.com",
+    "project_id": "digitaldiary2-fb1bf",
+    "storage_bucket": "digitaldiary2-fb1bf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:607343234603:android:d977816f4aa4bf82",
+        "android_client_info": {
+          "package_name": "com.example.vasua.digital_diary"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "607343234603-8b4igcrmfn6cmrdc8raio0jvi6idqfnd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.vasua.digital_diary",
+            "certificate_hash": "6060484f0c1a18d9f70763f54fde37ea28ef5fef"
+          }
+        },
+        {
+          "client_id": "607343234603-70rl6nseveo4v9mg0ocvos6d3gjsb4om.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAEyP-6ptBR5_Do3hTPcLOlSsgu7mzkYVA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "607343234603-70rl6nseveo4v9mg0ocvos6d3gjsb4om.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

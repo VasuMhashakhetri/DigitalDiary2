@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.vasua.digital_diary.HomeActivity">
+
+    <Button
+        android:id="@+id/makeDiaryEntry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:text="Make Diary Entry" />
+
+    <Button
+        android:id="@+id/viewDiaryEntry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/makeDiaryEntry"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp"
+        android:text="View Diary " />
+
+    <Button
+        android:id="@+id/sharedEntries"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/viewDiaryEntry"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="Shared" />
+
+    <Button
+        android:id="@+id/fix_meetings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sharedEntries"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="18dp"
+        android:text="Fix meetings" />
+
+    <Button
+        android:id="@+id/finalizeMeetings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/makeDiaryEntry"
+        android:layout_below="@+id/fix_meetings"
+        android:layout_marginTop="14dp"
+        android:text="Finalize Meetings" />
+
+    <Button
+        android:id="@+id/viewSchedule"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/sharedEntries"
+        android:layout_below="@+id/finalizeMeetings"
+        android:layout_marginTop="12dp"
+        android:text="Schedule" />
+
+    <Button
+        android:id="@+id/viewCalendar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/viewSchedule"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="18dp"
+        android:text="Calendar" />
+</RelativeLayout>
